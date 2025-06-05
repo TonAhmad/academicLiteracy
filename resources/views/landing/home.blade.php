@@ -34,87 +34,77 @@
 </section>
 
 <!-- Our Expertise Section -->
-<section class="our-expertise py-5 bg-light">
+<section class="our-expertise py-5">
     <div class="container">
-        <div class="row">
-            <!-- Left side: Title and description -->
-            <div class="col-lg-4">
-                <div class="expertise-content sticky-top" style="top: 100px;">
-                    <h2 class="section-title">Our Expertise</h2>
-                    <p class="section-subtitle">The Asia Foundation is an experienced leader in addressing critical issues across Asia.</p>
-                    <div class="mt-4">
-                        <a href="#" class=  "btn btn-primary">View All Programs</a>
-                    </div>
-                </div>
+      <div class="row">
+        <!-- Left side: Title and description -->
+        <div class="col-lg-4">
+          <div class="expertise-content" style="top: 100px;">
+            <h2 class="section-title">Our Expertise</h2>
+            <p class="section-subtitle">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit mollitia necessitatibus pariatur aliquam deserunt obcaecati debitis et nisi quos omnis nihil aspernatur unde, eligendi dolore consectetur? Fugit corrupti autem magnam!
+            </p>
+            <div class="mt-4">
+              <a href="#" class="btn btn-primary">View All Programs</a>
             </div>
-            
-            <!-- Right side: Photos/cards -->
-            <div class="col-lg-8">
-                <div class="row g-4">
-                    <!-- Governance -->
-                    <div class="col-md-6">
-                        <div class="card expertise-card">
-                            <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Governance">
-                            <div class="card-body">
-                                <h5 class="card-title">Governance</h5>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Economic Growth -->
-                    <div class="col-md-6">
-                        <div class="card expertise-card">
-                            <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Economic Growth">
-                            <div class="card-body">
-                                <h5 class="card-title">Economic Growth</h5>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Environmental Resilience -->
-                    <div class="col-md-6">
-                        <div class="card expertise-card">
-                            <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Environmental Resilience">
-                            <div class="card-body">
-                                <h5 class="card-title">Environmental Resilience</h5>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Education and Leadership -->
-                    <div class="col-md-6">
-                        <div class="card expertise-card">
-                            <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Education and Leadership">
-                            <div class="card-body">
-                                <h5 class="card-title">Education and Leadership</h5>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Women's Empowerment -->
-                    <div class="col-md-6">
-                        <div class="card expertise-card">
-                            <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Women's Empowerment">
-                            <div class="card-body">
-                                <h5 class="card-title">Women's Empowerment</h5>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- International Cooperation -->
-                    <div class="col-md-6">
-                        <div class="card expertise-card">
-                            <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="International Cooperation">
-                            <div class="card-body">
-                                <h5 class="card-title">International Cooperation</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+  
+        <!-- Right side: Grid Cards -->
+        <div class="col-lg-8">
+          <div class="expertise-grid">
+            <!-- Governance -->
+            <div class="card expertise-card">
+              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Governance">
+              <div class="card-body-ex">
+                <a href="#"><h5 class="card-title">Governance</h5></a>
+              </div>
+            </div>
+  
+            <!-- Economic Growth -->
+            <div class="card expertise-card">
+              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Economic Growth">
+              <div class="card-body-ex">
+                <a href="#"><h5 class="card-title">Economic Growth</h5></a>
+              </div>
+            </div>
+  
+            <!-- Environmental Resilience -->
+            <div class="card expertise-card">
+              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Environmental Resilience">
+              <div class="card-body-ex">
+                <a href="#"><h5 class="card-title">Environmental Resilience</h5></a>
+              </div>
+            </div>
+  
+            <!-- Education and Leadership -->
+            <div class="card expertise-card">
+              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Education and Leadership">
+              <div class="card-body-ex">
+                <a href="#"><h5 class="card-title">Education and Leadership</h5></a>
+              </div>
+            </div>
+  
+            <!-- Women's Empowerment -->
+            <div class="card expertise-card">
+              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Women's Empowerment">
+              <div class="card-body-ex">
+                <a href="#"><h5 class="card-title">Women's Empowerment</h5></a>
+              </div>
+            </div>
+  
+            <!-- International Cooperation -->
+            <div class="card expertise-card">
+              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="International Cooperation">
+              <div class="card-body-ex">
+                <a href="#"><h5 class="card-title">International Cooperation</h5></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </section>  
 
 <!-- Our Approach Section -->
 <section class="our-approach py-5">
@@ -128,7 +118,7 @@
 </section>
 
 <!-- How We Work Section -->
-<section class="how-we-work py-5 bg-light">
+<section class="how-we-work py-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -136,7 +126,7 @@
             </div>
             <div class="col-lg-6">
                 <h2 class="section-title">How we work</h2>
-                <p>The Asia Foundation partners with effective development agencies, foundations, corporations, and individuals to design and implement sustainable programs that build local knowledge, strengthen governance, expand economic opportunity, and increase environmental resilience.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officia quibusdam deleniti voluptas, quisquam inventore doloribus neque fugiat at dolorum delectus enim. Possimus, amet. Vero accusamus at autem dolor eius!</p>
                 <a href="#" class="btn btn-primary mt-3">Read More</a>
             </div>
         </div>
@@ -231,7 +221,7 @@
             </div>
             <div class="col-lg-6">
                 <h2 class="section-title">Support The Asia Foundation</h2>
-                <p>Your support today drives positive change to remedy the pressing needs and support real agency.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur saepe in vel atque corporis dolore quas natus esse soluta, ad, facere eaque aut sint, dignissimos quis quae debitis animi.</p>
                 <a href="#" class="btn btn-primary mt-3">Donate</a>
             </div>
         </div>
@@ -242,7 +232,23 @@
 @section('styles')
 <style>
     body{
-        font-family: 'catamaren', sans-serif;
+        font-family: 'Catamaran', sans-serif;
     }
 </style>
+@endsection
+
+@section('scripts')
+<script>
+    window.addEventListener("scroll", function () {
+        const btn = document.querySelector('.back-to-top');
+        if (window.scrollY > 200) {
+            btn.style.opacity = '1';
+            btn.style.pointerEvents = 'auto';
+        } else {
+            btn.style.opacity = '0';
+            btn.style.pointerEvents = 'none';
+        }
+    });
+</script>
+
 @endsection

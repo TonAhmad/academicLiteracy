@@ -1,5 +1,11 @@
 /* Header Styles */
 
+a {
+    color: black; /* atau warna lain */
+    text-decoration: none; /* menghilangkan garis bawah jika perlu */
+  }
+  
+
 .site-header {
     background-color: #fff;
     padding: 15px 0;
@@ -215,14 +221,30 @@
 }
 
 .back-to-top {
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 30px;
-    height: 30px;
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* lebih terlihat */
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    z-index: 999; /* pastikan di atas elemen lain */
+    cursor: pointer;
+    color: #000; /* warna icon */
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
 }
+
+.bi-arrow-up{
+    color: black;
+}
+
 
 .back-to-top:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -257,19 +279,42 @@
     padding: 100px 0;
 }
 
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 12px;
+  }
+  
+
 .expertise-card {
-    transition: all 0.3s ease;
     height: 100%;
     width: 100%;
     border: none;
     border-radius: 0;
+    color: transparent;
+    margin-bottom: 0px;
 }
 
+.card-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .expertise-card img {
-    height: 100%;
-    width: 200px;
+    height: 151px;
+    width: 100%;
     object-fit: cover;
-    border-radius: 0;
+    border-radius: 3px;
+}
+
+.card-body-ex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
 }
 
 .section-title {
@@ -277,18 +322,13 @@
   }
   
   .section-subtitle {
-    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-family: 'Catamaran', sans-serif;
   }
-  
-
-.expertise-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
 
 .our-approach {
-    background-size: 60vh;
     background-color: rgb(224, 224, 224);
+    margin: 64px 0;
 }
 
 .approach-text {
