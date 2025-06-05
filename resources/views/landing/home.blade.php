@@ -18,8 +18,8 @@
 
 @section('content')
 <!-- Who We Are Section -->
-<section class="who-we-are py-5">
-    <div class="container">
+<section class="who-we-are">
+    <div class="container cls-hero">
         <h2 class="section-title">Who We Are</h2>
         <div class="row mt-4">
             <div class="col-lg-4">
@@ -27,14 +27,14 @@
             </div>
             <div class="col-lg-6">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolores soluta. Expedita temporibus quaerat nemo odit amet aliquid ipsum velit, deleniti asperiores laudantium itaque ipsa ab et, veniam natus mollitia!</p>
-                <a href="#" class="btn btn-link">Explore our work <i class="bi bi-arrow-right"></i></a>
+                <a href="#" class="btn">Explore our work <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Our Expertise Section -->
-<section class="our-expertise py-5">
+<section class="our-expertise ">
     <div class="container">
       <div class="row">
         <!-- Left side: Title and description -->
@@ -45,7 +45,7 @@
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit mollitia necessitatibus pariatur aliquam deserunt obcaecati debitis et nisi quos omnis nihil aspernatur unde, eligendi dolore consectetur? Fugit corrupti autem magnam!
             </p>
             <div class="mt-4">
-              <a href="#" class="btn btn-primary">View All Programs</a>
+              <a href="#" class="btn btn-program">View All Programs</a>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
           <div class="expertise-grid">
             <!-- Governance -->
             <div class="card expertise-card">
-              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Governance">
+              <img src="https://parsonshouseaustin.com/wp-content/uploads/sites/5/2023/02/Senior-couple-smiling-and-reading-a-book-by-sitting-on-the-couch..jpg" class="card-img-top" alt="Governance">
               <div class="card-body-ex">
                 <a href="#"><h5 class="card-title">Governance</h5></a>
               </div>
@@ -63,7 +63,7 @@
   
             <!-- Economic Growth -->
             <div class="card expertise-card">
-              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Economic Growth">
+              <img src="https://parsonshouseaustin.com/wp-content/uploads/sites/5/2023/02/Senior-couple-smiling-and-reading-a-book-by-sitting-on-the-couch..jpg" class="card-img-top" alt="Economic Growth">
               <div class="card-body-ex">
                 <a href="#"><h5 class="card-title">Economic Growth</h5></a>
               </div>
@@ -71,7 +71,7 @@
   
             <!-- Environmental Resilience -->
             <div class="card expertise-card">
-              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Environmental Resilience">
+              <img src="https://parsonshouseaustin.com/wp-content/uploads/sites/5/2023/02/Senior-couple-smiling-and-reading-a-book-by-sitting-on-the-couch..jpg" class="card-img-top" alt="Environmental Resilience">
               <div class="card-body-ex">
                 <a href="#"><h5 class="card-title">Environmental Resilience</h5></a>
               </div>
@@ -79,7 +79,7 @@
   
             <!-- Education and Leadership -->
             <div class="card expertise-card">
-              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Education and Leadership">
+              <img src="https://parsonshouseaustin.com/wp-content/uploads/sites/5/2023/02/Senior-couple-smiling-and-reading-a-book-by-sitting-on-the-couch..jpg" class="card-img-top" alt="Education and Leadership">
               <div class="card-body-ex">
                 <a href="#"><h5 class="card-title">Education and Leadership</h5></a>
               </div>
@@ -87,7 +87,7 @@
   
             <!-- Women's Empowerment -->
             <div class="card expertise-card">
-              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="Women's Empowerment">
+              <img src="https://parsonshouseaustin.com/wp-content/uploads/sites/5/2023/02/Senior-couple-smiling-and-reading-a-book-by-sitting-on-the-couch..jpg" class="card-img-top" alt="Women's Empowerment">
               <div class="card-body-ex">
                 <a href="#"><h5 class="card-title">Women's Empowerment</h5></a>
               </div>
@@ -95,7 +95,7 @@
   
             <!-- International Cooperation -->
             <div class="card expertise-card">
-              <img src="https://th.bing.com/th/id/OIP.0cqdtj-OwjO5EtUxl_f9xAHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="card-img-top" alt="International Cooperation">
+              <img src="https://parsonshouseaustin.com/wp-content/uploads/sites/5/2023/02/Senior-couple-smiling-and-reading-a-book-by-sitting-on-the-couch..jpg" class="card-img-top" alt="International Cooperation">
               <div class="card-body-ex">
                 <a href="#"><h5 class="card-title">International Cooperation</h5></a>
               </div>
@@ -107,8 +107,8 @@
   </section>  
 
 <!-- Our Approach Section -->
-<section class="our-approach py-5">
-    <div class="container">
+<section class="our-approach">
+    <div class="container approach">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <p class="approach-text">Our long-term presence, trusted relationships, vast networks and knowledge, and focus on locally led and owned solutions are what set us apart.</p>
@@ -127,7 +127,7 @@
             <div class="col-lg-6">
                 <h2 class="section-title">How we work</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officia quibusdam deleniti voluptas, quisquam inventore doloribus neque fugiat at dolorum delectus enim. Possimus, amet. Vero accusamus at autem dolor eius!</p>
-                <a href="#" class="btn btn-primary mt-3">Read More</a>
+                <a href="#" class="btn btn-work">Read More</a>
             </div>
         </div>
     </div>
@@ -222,7 +222,7 @@
             <div class="col-lg-6">
                 <h2 class="section-title">Support The Asia Foundation</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur saepe in vel atque corporis dolore quas natus esse soluta, ad, facere eaque aut sint, dignissimos quis quae debitis animi.</p>
-                <a href="#" class="btn btn-primary mt-3">Donate</a>
+                <a href="#" class="btn btn-donate2">Donate</a>
             </div>
         </div>
     </div>

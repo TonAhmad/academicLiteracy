@@ -152,7 +152,7 @@
                             <label for="email" class="form-label">Email <span class="required">(required)</span></label>
                             <input type="email" class="form-control" id="email" placeholder="Enter your email">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-submit">Submit</button>
                     </form>
                     
                     <div class="social-icons mt-4">

@@ -13,7 +13,7 @@ a {
 }
 
 .logo {
-    max-height: 60px;
+    max-height: 100px;
 }
 
 /* Center the navbar items */
@@ -77,7 +77,7 @@ a {
 }
 
 .btn-donate {
-    background-color: #6a1b9a;
+    background-color: rgb(11, 93, 56);
     color: white;
     padding: 0.5rem 1.5rem;
     border-radius: 4px;
@@ -86,7 +86,7 @@ a {
 }
 
 .btn-donate:hover {
-    background-color: #5c1786;
+    background-color: rgba(11, 93, 56, 0.626);
     color: white;
 }
 
@@ -97,7 +97,7 @@ a {
 }
 
 .logo {
-    max-height: 50px;
+    max-height: 60px;
 }
 
 .nav-link {
@@ -138,7 +138,7 @@ a {
 
 /* Footer Styles */
 .footer {
-    background-color: #1a237e;
+    background-color: rgb(11, 93, 56);
     color: white;
     padding: 50px 0 20px;
 }
@@ -220,6 +220,10 @@ a {
     text-decoration: underline;
 }
 
+.btn-submit{
+    background-color: white;
+}
+
 .back-to-top {
     color: black;
     position: fixed;
@@ -252,31 +256,39 @@ a {
 
 /* Home CSS */
 .home-hero {
-    background-image: url("https://bettawardrobes.com.au/wp-content/uploads/2023/03/Bookshelf-organisation-tips-1024x683.jpeg");
+    background-image: url("https://wallpaperaccess.com/full/3886526.jpg");
     background-size: cover;
     background-position: center;
     padding: 150px 0;
+
 }
 
-.section-title {
-    font-weight: 600;
-    margin-bottom: 1rem;
+.home-hero h1{
+    font-family: 'Lora', serif;
+    font-size: 58px;
 }
 
-.section-subtitle {
-    font-size: 1.1rem;
-    color: #666;
-    max-width: 800px;
+.home-hero p{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 28px;
 }
 
 .who-we-are {
     background-color: rgb(224, 224, 224);
-    padding: 100px 0;
+}
+
+.cls-hero{
+    padding: 70px 15px;
 }
 
 .our-expertise {
     background-color: white;
-    padding: 100px 0;
+    padding: 70px 0px 43px;
+}
+
+.btn-program{
+    background-color: rgb(11, 93, 56);
+    color: white;
 }
 
 .expertise-grid {
@@ -318,7 +330,7 @@ a {
 }
 
 .section-title {
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans;
   }
   
   .section-subtitle {
@@ -329,6 +341,10 @@ a {
 .our-approach {
     background-color: rgb(224, 224, 224);
     margin: 64px 0;
+}
+
+.approach{
+    padding: 80px 0px;
 }
 
 .approach-text {
@@ -346,9 +362,19 @@ a {
     padding: 100px 0;
 }
 
+.btn-work{
+    background-color: rgb(11, 93, 56);
+    color: white;
+}
+
 .where-we-work h6 {
     color: white;
     font-weight: 400;
+}
+
+.btn-donate2{
+    background-color: rgb(11, 93, 56);
+    color: white;
 }
 
 .world-map {
