@@ -1,10 +1,13 @@
 /* Header Styles */
 
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
 a {
     color: black; /* atau warna lain */
     text-decoration: none; /* menghilangkan garis bawah jika perlu */
-  }
-  
+}
 
 .site-header {
     background-color: #fff;
@@ -37,7 +40,7 @@ a {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #6a1b9a;
+    color: rgb(11, 93, 56);
 }
 
 .navbar-nav .dropdown-toggle::after {
@@ -64,7 +67,12 @@ a {
 
 .dropdown-item:hover {
     background-color: #f8f9fa;
-    color: #6a1b9a;
+    color: rgb(11, 93, 56);
+}
+
+.head-item {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .search-icon a {
@@ -73,7 +81,7 @@ a {
 }
 
 .search-icon a:hover {
-    color: #6a1b9a;
+    color: rgb(11, 93, 56);
 }
 
 .btn-donate {
@@ -131,7 +139,7 @@ a {
 }
 
 .search-btn {
-    background-color: #6a1b9a;
+    background-color: rgb(11, 93, 56);
     color: white;
     border: none;
 }
@@ -187,7 +195,7 @@ a {
 }
 
 .newsletter-form .btn-primary {
-    background-color: #9c27b0;
+    background-color: rgb(11, 93, 56);
     border: none;
     padding: 8px 20px;
 }
@@ -220,8 +228,14 @@ a {
     text-decoration: underline;
 }
 
-.btn-submit{
+.btn-submit {
     background-color: white;
+    color: black;
+}
+
+.btn-submit:hover {
+    background-color: rgba(255, 255, 255, 0.662);
+    color: black;
 }
 
 .back-to-top {
@@ -236,7 +250,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     z-index: 999; /* pastikan di atas elemen lain */
     cursor: pointer;
     color: #000; /* warna icon */
@@ -245,10 +259,9 @@ a {
     pointer-events: none;
 }
 
-.bi-arrow-up{
+.bi-arrow-up {
     color: black;
 }
-
 
 .back-to-top:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -260,16 +273,25 @@ a {
     background-size: cover;
     background-position: center;
     padding: 150px 0;
-
 }
 
-.home-hero h1{
-    font-family: 'Lora', serif;
+.btn-learn {
+    background-color: white;
+    color: black;
+}
+
+.btn-learn:hover {
+    background-color: rgba(255, 255, 255, 0.662);
+    color: black;
+}
+
+.home-hero h1 {
+    font-family: "Lora", serif;
     font-size: 58px;
 }
 
-.home-hero p{
-    font-family: 'Catamaran', sans-serif;
+.home-hero p {
+    font-family: "Catamaran", sans-serif;
     font-size: 28px;
 }
 
@@ -277,29 +299,33 @@ a {
     background-color: rgb(224, 224, 224);
 }
 
-.cls-hero{
+.cls-hero {
     padding: 70px 15px;
 }
 
-.our-expertise {
+.our-programs {
     background-color: white;
     padding: 70px 0px 43px;
 }
 
-.btn-program{
+.btn-program {
     background-color: rgb(11, 93, 56);
     color: white;
 }
 
-.expertise-grid {
+.btn-program:hover {
+    background-color: rgba(11, 93, 56, 0.626);
+    color: white;
+}
+
+.programs-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 16px;
     margin-top: 12px;
-  }
-  
+}
 
-.expertise-card {
+.programs-card {
     height: 100%;
     width: 100%;
     border: none;
@@ -308,19 +334,19 @@ a {
     margin-bottom: 0px;
 }
 
-.card-img{
+.card-img {
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.expertise-card img {
+.programs-card img {
     height: 151px;
     width: 100%;
     object-fit: cover;
     border-radius: 3px;
 }
 
-.card-body-ex{
+.card-body-ex {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -330,20 +356,20 @@ a {
 }
 
 .section-title {
-    font-family: 'Lora', sans;
-  }
-  
-  .section-subtitle {
+    font-family: "Lora", sans;
+}
+
+.section-subtitle {
     color: black;
-    font-family: 'Catamaran', sans-serif;
-  }
+    font-family: "Catamaran", sans-serif;
+}
 
 .our-approach {
     background-color: rgb(224, 224, 224);
     margin: 64px 0;
 }
 
-.approach{
+.approach {
     padding: 80px 0px;
 }
 
@@ -354,16 +380,22 @@ a {
     font-weight: 300;
 }
 
-.where-we-work{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.vecteezy.com/system/resources/previews/000/170/636/original/blue-line-polygon-global-maps-vector.jpg");
+.where-we-work {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://static.vecteezy.com/system/resources/previews/000/170/636/original/blue-line-polygon-global-maps-vector.jpg");
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(10px);
     padding: 100px 0;
 }
 
-.btn-work{
+.btn-work {
     background-color: rgb(11, 93, 56);
+    color: white;
+}
+
+.btn-work:hover {
+    background-color: rgba(11, 93, 56, 0.626);
     color: white;
 }
 
@@ -372,8 +404,13 @@ a {
     font-weight: 400;
 }
 
-.btn-donate2{
+.btn-donate2 {
     background-color: rgb(11, 93, 56);
+    color: white;
+}
+
+.btn-donate2:hover {
+    background-color: rgba(11, 93, 56, 0.626);
     color: white;
 }
 

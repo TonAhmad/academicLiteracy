@@ -36,9 +36,9 @@
                         <div class="collapse navbar-collapse" id="navbarMain">
                             <ul class="navbar-nav ms-auto me-3">
                                 <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Work</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Programs</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Governance</a></li>
+                                        <li><a href="/programs" class="dropdown-item head-item">Our Programs</a></li>
                                         <li><a href="#" class="dropdown-item">Economic Growth</a></li>
                                         <li><a href="#" class="dropdown-item">Environmental Resilience</a></li>
                                         <li><a href="#" class="dropdown-item">Education</a></li>
@@ -49,26 +49,32 @@
                                 <li class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Our Leadership</a></li>
+                                        <li><a href="/about" class="dropdown-item head-item">About Us</a></li>
                                         <li><a href="#" class="dropdown-item">Mission & Vision</a></li>
                                         <li><a href="#" class="dropdown-item">Financial Information</a></li>
                                         <li><a href="#" class="dropdown-item">Careers</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News and Insights</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Strategy</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Blog</a></li>
+                                        <li><a href="/strategy" class="dropdown-item head-item">Strategy</a></li>
                                         <li><a href="#" class="dropdown-item">Publications</a></li>
                                         <li><a href="#" class="dropdown-item">Events</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Get Involved</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Article</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Volunteer</a></li>
+                                        <li><a href="/article" class="dropdown-item head-item">Article</a></li>
                                         <li><a href="#" class="dropdown-item">Partner With Us</a></li>
                                         <li><a href="#" class="dropdown-item">Careers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/contact" class="dropdown-item head-item">Contact</a></li>
                                     </ul>
                                 </li>
                             </ul>
